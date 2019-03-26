@@ -38,6 +38,6 @@ expamle:commattr_<attr_id>
 ## 属性信息表结构
 |列名|类型|备注|
 |----|----|----|
-|attr_id|int|属性ID|
-|attr_name|string|属性ID名字|
-|attr_remark|string|属性ID备注|
+|id|int|属性ID|
+|name|varchar(128)|属性ID名字|
+|description|varchar(256)|属性ID备注|
