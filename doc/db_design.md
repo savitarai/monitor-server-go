@@ -14,6 +14,7 @@ expamle:commattr_<attr_id>
 |attr_id|int|属性ID|
 |time_min|int|分钟|
 |val|bigint|该分钟的值|
+
 ## 统计监控表结构
 |列名|类型|备注|
 |----|----|----|
@@ -26,6 +27,7 @@ expamle:commattr_<attr_id>
 |sum|bigint|总值|
 |first|bigint|第一个值|
 |end|bigint|最后一个值|
+
 ## 秒级监控表结构
 |列名|类型|备注|
 |----|----|----|
@@ -35,9 +37,17 @@ expamle:commattr_<attr_id>
 |sum|bigint|总值|
 |sec_0|bigint|第0秒|
 |sec_N|bigint|第N秒(0<=N<=59)|
+
 ## 属性信息表结构
 |列名|类型|备注|
 |----|----|----|
 |id|int|属性ID|
 |name|varchar(128)|属性ID名字|
 |description|varchar(256)|属性ID备注|
+
+## 主机信息列表
+|列名|类型|备注|
+|----|----|----|
+|ip|varchar(128)|主机ip|
+|hostname|varchar(256)|主机名|
+
